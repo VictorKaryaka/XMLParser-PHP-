@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4":{
+            "models\\": "src/models",
+            "dao\\": "src/dao",
+            "src\\": "src"
+        }
+    },
+    "require-dev": {
+    },
+    "require": {
+        "doctrine/orm": "2.4.*"
+    }
+}
